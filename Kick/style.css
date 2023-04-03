@@ -1,0 +1,131 @@
+header {
+    background-color: peru;
+    width: 40%;
+    margin: auto;
+    font-family: "Oswald", sans-serif;
+    overflow: hidden;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#menu {
+    background-color: aliceblue;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: peru;
+}
+
+article{
+    background-color: aliceblue;
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+    font-family: "Oswald", sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-color: #c4a47c;
+}
+
+ol li span {
+    float: right;
+    margin-right: 15px;
+}
+
+ol li {
+    border-bottom: 1px solid black;
+    margin-right: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+h2, p {
+    margin-left: 20px;
+    margin-right: 35px;
+}
+
+section {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#btt {
+    text-decoration: none;
+    color: black;
+    background-color: #c4a47c;
+    padding: 7px;
+    border-radius: 5px;   
+}
+
+#btt:hover {
+    transition: 0.5s;
+    background-color: peru;
+}
+
+/*criei duas divs para separar os conteudos*/
+.altair, .ibmpc{
+    background-color: aliceblue;
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+/* Rodape da pagina com imagem de uma seta para voltar ao topo da pagina */
+footer{
+    text-align: center;
+    background-color: peru;
+    width: 40%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.volta-inicio p{
+    font-family: "Oswald", sans-serif;
+}
+
+.volta-inicio span {
+    color: aliceblue;
+}
+
+
+.volta-inicio a {
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    background-image: url("seta.png");
+}
